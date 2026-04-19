@@ -1,0 +1,519 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+
+	<meta charset="UTF-8" />
+
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+
+	<!-- Titre de la page-->
+	<title>Yanis AGOSSOU — Développeur Web Freelance | Landing Pages & Sites Vitrines | Bénin</title>
+
+	<!-- Description  -->
+	<meta name="description"
+		content="YanDev, développeur web freelance basé à Cotonou. Je crée des landing pages et sites vitrines qui convertissent — pour marques et entrepreneurs." />
+
+	<!-- Mots-clés (peu utilisés par Google mais utiles pour d'autres moteurs) -->
+	<meta name="keywords"
+		content="développeur web freelance Bénin, création site web Cotonou, landing page freelance, site vitrine Afrique, développeur web francophone, HTML CSS Tailwind, portfolio développeur web, Janel GUEDEMEY" />
+
+	<!-- Auteur -->
+	<meta name="author" content="Yanis AGOSSOU" />
+
+	<!-- Robots : autoriser l'indexation et le suivi des liens -->
+	<meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
+
+	<!-- Langue de la page -->
+	<meta name="language" content="French" />
+
+	<!-- URL canonique (remplace [TON-DOMAINE] par ton vrai domaine) -->
+	<link rel="canonical" href="https://www.YanDev.com/" />
+
+
+	<!-- ============================================================
+       OPEN GRAPH — Partage sur Facebook, WhatsApp, LinkedIn
+  ============================================================ -->
+
+	<meta property="og:type" content="website" />
+	<meta property="og:site_name" content="Yanis AGOSSOU" />
+	<meta property="og:title" content="Yanis AGOSSOU — Développeur Web Freelance | Landing Pages & Sites Vitrines" />
+	<meta property="og:description"
+		content="Un site joli, ça ne paie pas les factures. Le tien devrait faire les deux. Je crée des sites qui attirent les bons clients — design qui en impose, message qui convainc." />
+	<meta property="og:url" content="https://www.YanDev.com/" />
+	<meta property="og:image" content="https://www.YanDev.com/assets/og-image.jpg" />
+	<!-- Image recommandée : 1200x630px, moins de 1MB -->
+	<meta property="og:image:width" content="1200" />
+	<meta property="og:image:height" content="630" />
+	<meta property="og:image:alt" content="Yanis AGOSSOU — Portfolio développeur web freelance, Cotonou Bénin" />
+	<meta property="og:locale" content="fr_FR" />
+
+
+	<!-- ============================================================
+       TWITTER CARD — Partage sur X (Twitter)
+  ============================================================ -->
+
+	<meta name="twitter:card" content="summary_large_image" />
+	<meta name="twitter:title" content="YanDev — Développeur Web Freelance | Landing Pages & Sites Vitrines" />
+	<meta name="twitter:description"
+		content="Un site joli, ça ne paie pas les factures. Le tien devrait faire les deux. Sites qui convertissent pour marques et entrepreneurs francophones." />
+	<meta name="twitter:image" content="https://www.jYanDev.com/assets/og-image.jpg" />
+	<meta name="twitter:image:alt" content="Janel Dev — Portfolio développeur web freelance" />
+
+
+
+	<!-- ============================================================
+       GÉO-LOCALISATION — Booste la recherche locale
+  ============================================================ -->
+
+	<meta name="geo.region" content="BJ" />
+	<!-- BJ = code ISO du Bénin -->
+	<meta name="geo.placename" content="Cotonou, Bénin" />
+	<meta name="geo.position" content="6.3654;2.4183" />
+	<!-- Coordonnées GPS de Cotonou -->
+	<meta name="ICBM" content="6.3654, 2.4183" />
+
+
+	<!-- ============================================================
+       SCHEMA.ORG — Données structurées (JSON-LD)
+       Aide Google à comprendre qui tu es et ce que tu fais
+  ============================================================ -->
+
+	<script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "Yanis AGOSSOU",
+    "jobTitle": "Développeur Web Freelance",
+    "description": "Développeur web freelance basé à Cotonou, spécialisé en landing pages et sites vitrines pour marques et entrepreneurs francophones.",
+    "url": "https://www.YanDev.com",
+    "image": "https://www.YanDev.com/assets/photo-Yanis.jpg",
+    "email": "yanisagossou18@.com",
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Cotonou",
+      "addressCountry": "BJ"
+    },
+    "knowsAbout": [
+      "Développement web",
+      "Landing page",
+      "Site vitrine",
+      "HTML",
+      "CSS",
+      "Tailwind CSS",
+      "JavaScript",
+      "GSAP",
+      "Figma",
+      "Copywriting web"
+    ],
+    "sameAs": [
+      "https://comeup.com/[ton-profil-comeup]",
+      "https://www.facebook.com/[ta-page-facebook]"
+    ],
+    "offers": {
+      "@type": "Offer",
+      "description": "Création de landing pages et sites vitrines sur mesure",
+      "areaServed": ["BJ", "FR", "CI", "SN", "CM"],
+      "availableLanguage": ["French"]
+    }
+  }
+  </script>
+
+	<!-- WebSite schema pour la barre de recherche Google -->
+	<script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    "name": "Yanis AGOSSOU",
+    "url": "https://www.YanDev.com",
+    "description": "Portfolio de Yanis AGOSSOU, développeur web freelance spécialisé en landing pages et sites vitrines — Cotonou, Bénin.",
+    "inLanguage": "fr-FR",
+    "author": {
+      "@type": "Person",
+      "name": "Yanis AGOSSOU"
+    }
+  }
+  </script>
+
+
+	<!-- ============================================================
+       PERFORMANCE & TECHNIQUE
+  ============================================================ -->
+
+	<!-- Préconnexion aux fonts Google-->
+	<link rel="preconnect" href="https://fonts.googleapis.com" />
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+	<link
+		href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Rajdhani:wght@300;400;500;600;700&display=swap"
+		rel="stylesheet" />
+
+	<!-- Favicon-->
+	<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+	<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
+	<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+	<link rel="manifest" href="/site.webmanifest" />
+	<!-- theme-color = ta couleur anthracite, pour la barre du navigateur mobile -->
+
+	<meta name="theme-color" content="#2F2F2F" />
+
+	<link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+	<link href="vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+	<link href="vendor/aos/aos.css" rel="stylesheet">
+	<link href="vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+	<link href="vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+
+	<link rel="stylesheet" href="CSS/index.css">
+
+
+	<link rel="stylesheet" href="assets/css/main.css" />
+
+</head>
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com" rel="preconnect">
+  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+    rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="vendor/aos/aos.css" rel="stylesheet">
+  <link href="vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+  <link href="vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+
+  <!-- Main CSS File -->
+  <link rel="stylesheet" href="CSS/index.css">
+
+</head>
+
+<body class="about-page">
+
+  <header id="header" class="header d-flex align-items-center light-background sticky-top">
+    <div class="container position-relative d-flex align-items-center justify-content-between">
+
+      <!-- <a href="index.html" class="logo d-flex align-items-center me-auto me-xl-0">
+      <img src="assets/img/logo.webp" alt="">
+      <h1 class="sitename">FolioOne</h1> 
+    </a> -->
+      <nav id="navmenu" class="navmenu">
+        <ul>
+          <li><a href="index.html" class="">Acceuil</a></li>
+          <li><a href="about.html">À Propos</a></li>
+          <li><a href="compétence.html">compétence</a></li>
+          <li><a href="projet.html">Projets</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+        <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
+      </nav>
+
+      <div class="header-social-links">
+        <a href="#" class="twitter"><i class="bi bi-twitter-x"></i></a>
+        <a href="#" class="facebook"><i class="bi bi-facebook"></i></a>
+        <a href="#" class="instagram"><i class="bi bi-instagram"></i></a>
+        <a href="#" class="linkedin"><i class="bi bi-linkedin"></i></a>
+      </div>
+
+    </div>
+  </header>
+
+  <main class="main">
+
+    <!-- About Section -->
+    <section id="about" class="about section">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>À Propos</h2>
+       
+      </div><!-- End Section Title -->
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+        <!-- Intro + Photo -->
+        <div class="row align-items-center justify-content-between gy-5 mb-5">
+          <div class="col-lg-7" data-aos="fade-right" data-aos-delay="150">
+            <div class="intro-content">
+              <span class="eyebrow">Salut.....</span>
+              <h2 class="headline"> Je suis Yanis, développeur web et Créateur de solution digitales.
+              </h2>
+              <p class="lead">
+               Développeur web spécialisé dans la créaction de sites modernes et performant.Mon approche repose sur trois piliers : un design impactant,une expérience utilisateur fluide et une stratégie orientée convertion.
+              </p>
+              <p>
+            J'aime crée des interfaces simples, élégantes et efficaces qui offrent une vrai expérience aux utilisateurs.Toujours en quête d'évolution,je développe mes compétences pour contruire des projets innovants et apporter de la valeur à chaque collaboration.
+              </p>
+
+              <div class="cta-group">
+                <a href="#portfolio" class="btn-ghost">
+                  Voir mon Travail <i class="bi bi-arrow-up-right"></i>
+                </a>
+                
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-5" data-aos="zoom-in" data-aos-delay="250">
+            <figure class="profile-figure text-center text-lg-end">
+              <img src="CSS/img/profile/profile-square-11.webp" alt="Portrait of Alex"
+                class="img-fluid profile-photo">
+            </figure>
+          </div>
+        </div>
+        <!-- End Intro + Photo -->
+
+        <!-- Skills Grid -->
+        <div class="mb-5">
+          <div class="row g-4">
+            <div class="col-6 col-md-4 col-lg-3" data-aos="fade-up" data-aos-delay="120">
+              <div class="skill-item">
+                <i class="bi bi-layout-text-window"></i>
+                <h3>UI/UX</h3>
+                <p>Design centré utilisateur pour maximiser engagement et conversion.</p>
+              </div>
+            </div>
+            <div class="col-6 col-md-4 col-lg-3" data-aos="fade-up" data-aos-delay="180">
+              <div class="skill-item">
+                <i class="bi bi-code-slash"></i>
+                <h3>React.js</h3>
+                <p>Interfaces dynamique rapides et scalables.</p>
+              </div>
+            </div>
+            <div class="col-6 col-md-4 col-lg-3" data-aos="fade-up" data-aos-delay="240">
+              <div class="skill-item">
+                <i class="bi bi-phone"></i>
+                <h3>Mobile-first</h3>
+                <p>Expérience fluide sur tous les appareilks.</p>
+              </div>
+            </div>
+            <div class="col-6 col-md-4 col-lg-3" data-aos="fade-up" data-aos-delay="180">
+              <div class="skill-item">
+                <i class="bi bi-code-slash"></i>
+                <h3>Booststrap</h3>
+                <p>Pour un responsive plus propre et efficace.</p>
+              </div>
+          </div>
+        </div>
+        <!-- End Skills Grid -->
+
+      </div>
+
+    </section><!-- /About Section -->
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills section">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>skill</h2>
+        <p>Voici les technologies et compétences que j'utilise pour concevoir des interfaces modernes,performantes et adaptées aux besoins du web actuel.</p>
+      </div><!-- End Section Title -->
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+        <div class="row g-3 skills-animation">
+
+          <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="100">
+            <div class="skill-box">
+              <h3>HTML</h3>
+              <p>Structure de la page.</p>
+              <span class="text-end d-block">90%</span>
+              <div class="progress">
+                <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100">
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="200">
+            <div class="skill-box">
+              <h3>CSS</h3>
+              <p>Le Style de la page. </p>
+              <span class="text-end d-block">90%</span>
+              <div class="progress">
+                <div class="progress-bar" role="progressbar" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100">
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="300">
+            <div class="skill-box">
+              <h3>JavaScript</h3>
+              <p>Page web dynamiques et interactives.</p>
+              <span class="text-end d-block">80%</span>
+              <div class="progress">
+                <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100">
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+    </section><!-- /Skills Section -->
+
+   
+   
+
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="testimonials section">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Pourquoi me choisir?</h2>
+        
+      </div><!-- End Section Title -->
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+        <div class="swiper init-swiper">
+          <script type="application/json" class="swiper-config">
+            {
+              "loop": true,
+              "speed": 600,
+              "autoplay": {
+                "delay": 5000
+              },
+              "slidesPerView": "auto",
+              "pagination": {
+                "el": ".swiper-pagination",
+                "type": "bullets",
+                "clickable": true
+              }
+            }
+          </script>
+          <div class="swiper-wrapper">
+
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                <div class="row gy-4 justify-content-center">
+                  <div class="col-lg-6">
+                    <div class="testimonial-content">
+                      <p>
+                        <i class="bi bi-quote quote-icon-left"></i>
+                        <span>Je conçois des sites web modernes, rapides et entièrement adaptés à tous les écrans(mobile,tablette,ordinateur)pour offrir une expérience utilisateur optimale.</span>
+                        <i class="bi bi-quote quote-icon-right"></i>
+                      </p>
+                    </div>
+                  </div>
+                  <div class="col-lg-2 text-center">
+                    <img src="assets/img/person/person-m-9.webp" class="img-fluid testimonial-img" alt="">
+                  </div>
+                </div>
+              </div>
+            </div><!-- End testimonial item -->
+
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                <div class="row gy-4 justify-content-center">
+                  <div class="col-lg-6">
+                    <div class="testimonial-content">
+                      <p>
+                        <i class="bi bi-quote quote-icon-left"></i>
+                        <span>Je m'investir à 100% dans chaque projet avec sérieux et rigueur, en cherchant toujours à dépasser Les attentes et à livrer un travail de qualité.</span>
+                        <i class="bi bi-quote quote-icon-right"></i>
+                      </p>
+                      
+                    </div>
+                  </div>
+                  <div class="col-lg-2 text-center">
+                    <img src="assets/img/person/person-f-5.webp" class="img-fluid testimonial-img" alt="">
+                  </div>
+                </div>
+              </div>
+            </div><!-- End testimonial item -->
+
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                <div class="row gy-4 justify-content-center">
+                  <div class="col-lg-6">
+                    <div class="testimonial-content">
+                      <p>
+                        <i class="bi bi-quote quote-icon-left"></i>
+                        <span>J'écris un code structuré, claire et optimisé pour garantir de bonnes performances, une maintenance facile et une évolution sans problème.</span>
+                        <i class="bi bi-quote quote-icon-right"></i>
+                      </p>
+                      
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div><!-- End testimonial item -->
+
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                <div class="row gy-4 justify-content-center">
+                  <div class="col-lg-6">
+                    <div class="testimonial-content">
+                      <p>
+                        <i class="bi bi-quote quote-icon-left"></i>
+                        <span>Chaque projet est pensée pour être simple,fluide et agréablez à utiliser, afin de capter l'attention et améliorer l'engagement des visiteurs.</span>
+                        <i class="bi bi-quote quote-icon-right"></i>
+                      </p>
+                     
+                    </div>
+                  </div>
+                  <div class="col-lg-2 text-center">
+                    <img src="assets/img/person/person-m-12.webp" class="img-fluid testimonial-img" alt="">
+                  </div>
+                </div>
+              </div>
+            </div><!-- End testimonial item -->
+
+          </div>
+          <div class="swiper-pagination">juju</div>
+        </div>
+
+      </div>
+
+    </section><!-- /Testimonials Section -->
+
+  </main>
+
+  <footer id="footer" class="footer">
+
+    <div class="container">
+      <div class="copyright text-center ">
+        <p>© <span>Copyright</span> <strong class="px-1 sitename">YanDev</strong> <span>Touts les droits réserver<br></span>
+        </p>
+      </div>
+      <div class="social-links d-flex justify-content-center">
+        <a href=""><i class="bi bi-twitter-x"></i></a>
+        <a href=""><i class="bi bi-facebook"></i></a>
+        <a href=""><i class="bi bi-instagram"></i></a>
+        <a href=""><i class="bi bi-linkedin"></i></a>
+      </div>
+
+    </div>
+
+  </footer>
+
+  <!-- Scroll Top -->
+  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i
+      class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Preloader -->
+  <div id="preloader"></div>
+
+  <!-- Vendor JS Files -->
+  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="vendor/php-email-form/validate.js"></script>
+  <script src="vendor/aos/aos.js"></script>
+  <script src="vendor/typed.js/typed.umd.js"></script>
+  <script src="vendor/waypoints/noframework.waypoints.js"></script>
+  <script src="vendor/purecounter/purecounter_vanilla.js"></script>
+  <script src="vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
+  <script src="vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="vendor/glightbox/js/glightbox.min.js"></script>
+
+  <!-- Main JS File -->
+  <script src="CSS/js/index.js"></script>
+
+</body>
+
+</html>
